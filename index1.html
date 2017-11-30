@@ -9,12 +9,65 @@
     <form method="POST" action="https://formspree.io/doronin.andrii.lv@gmail.com">
         
                 <h4>Ви курите?</h4>
-                <input type="radio" name="smoke" value="often"> Так, часто
-                <br>
-                <input type="radio" name="smoke" value="rarely">Так, рідко
-                <br>
-                <input type="radio" name="smoke" value="no">Не курю
-                
+                   <label>
+                        <input type="radio" name="Smoke" value="often">Так, часто
+                    </label>
+                    <br>
+                    <label>
+                        <input type="radio" name="Smoke" value="rarely">Так, рідко
+                    </label>
+                    <br>
+                    <label>
+                        <input type="radio" name="Smoke" value="no">Не курю
+                    </label>
+                    <br><br>
+                    <hr>
+                    <h4>Чому ви почали курити?</h4>
+                   <label>
+                        <input type="checkbox" name="Stress"> Стрес
+                    </label>
+                    <br>
+                    <label>
+                        <input type="checkbox" name="Intresting"> Стало цікаво
+                    </label>
+                    <br><br>
+                    <hr>
+                    <h4>Скільки сигарет ви викурюєте за день?</h4>
+                   <label>
+                        <input type="number" name="Number"> Вкажіть кількість
+                    </label>
+                    <br><br>
+                    <hr>
+                    <h4>Ваша думка з приводу куріння</h4>
+                   <label>
+                        <textarea name="story" rows="4" cols="60" placeholder="..."></textarea>
+                    </label>
+                    <br><br>
+                    <hr>
+                    <h4>Ви хочете кинути курити?</h4>
+                   <label>
+                        <select name="drop">
+                            <option value="yes">Так</option>
+                            <option value="no">Ні</option>
+                        </select>
+                    </label>
+                    <hr>
+                    <h4>Ваші дані</h4>
+                   <label>
+                      <input type="radio" name="g\Gender" value="male">Чол
+                    </label>
+                    <br>
+                    <label>
+                        <input type="radio" name="Gender" value="female">Жін
+                    </label> 
+                    <br><br>
+                    <label>
+                    <input name="Birth" type="date" value="mm/dd/yy"> Дата народження
+                    </label>
+                    <br><br>
+                    <input type="submit" value="Відправити"/>
+                    <input type="reset" value="Скасувати"/>
+    </form>
     
 </body>
 </html>
